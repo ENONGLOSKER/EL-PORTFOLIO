@@ -29,6 +29,10 @@ nav{
    margin: 0 30px;
    padding: 15px 20px;
 }
+.nav .menu ul li a:hover{
+   color: rgb(8, 202, 236);
+   text-shadow: 5px 2px 30px rgb(165, 244, 255);
+}
 .nav .media img{
     width: 35px;
     height: 35px;
@@ -93,4 +97,95 @@ header .header{
 
 .header .header2 img{
     margin-top: -80px;
+}
+
+/* co ntent */
+.content{
+    margin: 0 150px;
+}
+.content .project {
+    display: flex;
+
+}
+.content .About .About-img h1{
+    font-size: 180px;
+    font-weight: bold;
+    z-index: 2;
+}
+.content .About .About-img h2{
+    position: absolute;
+    top: 85.5%;
+    font-size: 180px;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 2px;
+    font-weight: bold;
+    -webkit-text-fill-color:transparent;
+    z-index: 2;
+}
+.content .About .About-img img{
+    margin-top: -80px;
+    margin-right: 450px;
+    width: 580px;
+}
+.content .About p{
+    position: absolute;
+    left: 45%;
+    top: 100%;
+    margin-right: 50px;
+    padding: 100px 350px 0 5px;
+    letter-spacing: 2px;
+    color: rgb(185, 185, 185);
+    line-height: 1.8;
+}
+
+/* PROJECT */
+.my-project{
+    font-size: 140px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 80px;
+}
+.my-project-outline{
+    font-size: 140px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -160px;
+    margin-left: 15px;
+    z-index: 99;
+    -webkit-text-fill-color:transparent;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 2px;
+}
+.project .card {
+ /* background-color: blue; */
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ margin-top: 5px;
+ /* background-color: red; */
+ 
+}
+
+.project .card .card-project{
+    background-color: rgb(255, 255, 255);
+    margin:10px;
+    padding: 20px 15px;
+    border-radius: 8px;
+    box-shadow: 10px 15px 20px rgb(233, 233, 233);
+}
+.project .card .card-project .ket{
+    margin: 20px 0;
+}
+.projek-more{
+    display: flex;
+    margin: 50px auto;
+    padding: 10px 15px;
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(8, 202, 236);
+    box-shadow: 5px 2px 30px rgb(165, 244, 255);
 }
