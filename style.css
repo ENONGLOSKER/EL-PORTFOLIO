@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-family:'Inter', sans-serif;
+}
+
+/* nav */
+nav{
+    background-color: rgb(247, 247, 247);
+    height: 65px;
+}
+.nav {
+    height: 65px;
+    display: flex;
+    margin: 0 150px;
+    justify-content: space-between;
+    /* background-color: yellowgreen; */
+    align-items: center;
+}
+.nav .menu ul{
+    display: flex;
+    font-weight: 600;
+    /* background-color: red; */
+}
+.nav .menu ul li{
+   margin: 0 30px;
+   padding: 15px 20px;
+}
+.nav .media img{
+    width: 35px;
+    height: 35px;
+    margin: 0 3px;
+    padding: 0 2px;
+}
+
+/* header */
+header{
+    margin: 0 150px;
+}
+header .header{
+    display: flex;
+    margin: 100px 0;
+}
+.header .header1 img{
+    width: 60px;
+    position: absolute;
+    top: 18%;
+    left: 22%;
+    z-index: -1;
+}
+.header .header1 #brush{
+    width: 300px;
+    position: absolute;
+    top: 43%;
+    left: 20%;
+    z-index: -1;
+}
+.header .header1 h3{
+    letter-spacing: 5px;
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+.header .header1 span{
+    letter-spacing: 5px;
+    margin-right: -50px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    /* background-color: red; */
+    margin-bottom: 50px;
+}
+.header .header1 h1{
+    font-size: 90px;
+    font-weight: bold;
+    margin-right: -20px;
+}
+.header .header1 a{
+    display: block;
+    margin-top: 50px;
+    width: 120px;
+    text-align: center;
+    padding: 20px 20px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(8, 202, 236);
+    box-shadow: 5px 2px 30px rgb(165, 244, 255);
+}
+.header .header1 a:hover{
+   background-color: rgb(9, 159, 185);
+}
+
+.header .header2 img{
+    margin-top: -80px;
+}
